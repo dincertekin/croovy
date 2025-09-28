@@ -1,5 +1,5 @@
-# Croovy
-Croovy is a search engine. It respects your privacy. And it's focused on giving you most accurate results.
+# croovy
+croovy is a search engine. It respects your privacy. And it's focused on giving you most accurate results.
 
 ## Tech Stack
 - Frontend: Vue
