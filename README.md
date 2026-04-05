@@ -1,69 +1,71 @@
 # croovy
-Privacy-focused search engine built with Vue and Flask.
 
-## Description
-Croovy is a privacy-focused search engine that aims to deliver accurate results without tracking you. The frontend is built with Vue, the backend runs on Python with Flask, and Redis is used as the database for efficient search engine indexing. Redis was chosen because its NoSQL architecture handles indexed data well and provides everything needed for fast, reliable search operations.
+![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Windows-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-## Getting Started
+Croovy is a privacy-focused search engine that delivers accurate results without tracking you. The frontend is built with Vue, the backend runs on Flask, and Redis handles search indexing because its NoSQL architecture is well-suited for fast, indexed lookups.
 
-### Dependencies
-* Node.js and npm or yarn
-* Python 3.x and pip
-* Redis
+## Tech Stack
 
-### Installing
+| Layer | Tool |
+|---|---|
+| Frontend | Vue |
+| Backend | Flask (Python 3) |
+| Database | Redis |
 
-* Clone the repository:
-```bash
-git clone https://github.com/dincertekin/croovy.git
-cd croovy/
-```
+## Installation
 
-* Install frontend dependencies:
-```bash
-cd client/
-npm install
-```
+### Prerequisites
 
-* Install backend dependencies:
-```bash
-cd server/
-pip install -r requirements.txt
-```
+- Node.js and npm
+- Python 3 and pip
+- Redis
 
-### Executing program
+### Steps
 
-* Start Redis:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/dincertekin/croovy.git
+   cd croovy/
+   ```
+
+2. Install frontend dependencies:
+   ```bash
+   cd client/ && npm install
+   ```
+
+3. Install backend dependencies:
+   ```bash
+   cd server/ && pip install -r requirements.txt
+   ```
+
+## Usage
+
+Start Redis first, then the backend, then the frontend:
+
 ```bash
 redis-server
-```
-
-* Start the backend:
-```bash
 flask run
-```
-
-* Start the frontend:
-```bash
 npm run dev
 ```
 
-## Help
-Make sure Redis is running before starting the backend, otherwise the app will fail to connect.
-
+If Redis isn't responding, verify it's running before starting the backend:
 ```bash
 redis-cli ping
 ```
 
 ## Contributing
-Contributions are welcome! To get started:
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -m 'Add your feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
 
-Please open an issue first for major changes to discuss what you'd like to change.
+Contributions are welcome! To get started:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Commit your changes (`git commit -m 'Add your feature'`).
+4. Push to the branch (`git push origin feature/your-feature`).
+5. Open a Pull Request.
+
+For major changes, please open an issue first to discuss what you'd like to change.
 
 ## License
-This project is licensed under the [MIT](LICENSE) License - see the LICENSE.md file for details
+
+MIT License — see [LICENSE](./LICENSE) for details.
