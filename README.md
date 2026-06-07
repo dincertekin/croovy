@@ -1,4 +1,4 @@
-# croovy
+# Croovy
 
 ![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Windows-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
