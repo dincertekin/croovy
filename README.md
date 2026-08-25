@@ -1,6 +1,6 @@
 # Croovy
 
-![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Windows-blue)
+![Platform](https://img.shields.io/badge/platform-Web-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 Croovy is a privacy-focused search engine that delivers accurate results without tracking you. The frontend is built with Vue, the backend runs on Flask, and Redis handles search indexing because its NoSQL architecture is well-suited for fast, indexed lookups.
