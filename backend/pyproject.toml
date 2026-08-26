@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "croovy-backend"
-version = "0.0.1"
-description = "A search engine respects your privacy."
+version = "1.0.0"
+description = ""
 authors = ["Dinçer Tekin <dincertekin@protonmail.com>"]
 license = "MIT"
 
@@ -11,6 +11,8 @@ redis = "^5.2.1"
 flask = "^3.1.0"
 flask-cors = "^5.0.0"
 
+[tool.poetry.scripts]
+start = "src.app:create_app"
 
 [build-system]
 requires = ["poetry-core"]

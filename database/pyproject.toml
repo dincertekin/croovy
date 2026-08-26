@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "croovy-database"
-version = "0.0.1"
-description = "A search engine respects your privacy."
+version = "1.0.0"
+description = ""
 authors = ["Dinçer Tekin <dincertekin@protonmail.com>"]
 license = "MIT"
 
@@ -10,7 +10,6 @@ python = "^3.13"
 requests = "^2.32.3"
 beautifulsoup4 = "^4.12.3"
 redis = "^5.2.1"
-
 
 [build-system]
 requires = ["poetry-core"]

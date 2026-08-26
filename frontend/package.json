@@ -1,7 +1,8 @@
 {
-  "name": "croovy",
-  "version": "1.0.0",
+  "name": "croovy-frontend",
   "private": true,
+  "version": "1.0.0",
+  "author": "dincertekin",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,17 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@vueuse/core": "^12.0.0",
-    "axios": "^1.7.9",
-    "vue": "^3.5.13",
-    "vue-router": "^4.5.0"
+    "@vueuse/core": "^14.4.0",
+    "axios": "^1.19.0",
+    "lucide-vue-next": "^1.0.0",
+    "vue": "^3.5.41"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.2.1",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.49",
-    "tailwindcss": "^3.4.16",
-    "vite": "^6.0.1",
-    "vite-plugin-vue-devtools": "^7.6.5"
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-vue": "^6.0.8",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.2.2"
   }
 }
